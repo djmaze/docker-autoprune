@@ -1,4 +1,4 @@
-FROM docker:24.0.7-cli-alpine3.18
+FROM docker:29.2.1-cli-alpine3.23
 
 ENTRYPOINT ["/usr/local/bin/autoprune.sh"]
 

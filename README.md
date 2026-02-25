@@ -9,7 +9,7 @@ Docker image which runs `docker system prune` on a repeated interval.
 ```yaml
 services:
   app:
-    image: decentralize/docker-autoprune:0.1.0
+    image: decentralize/docker-autoprune:0.1.1
     init: true
     environment:
       - SLEEP_TIME=3600
@@ -24,7 +24,7 @@ version: "3.7"
 
 services:
   app:
-    image: decentralize/docker-autoprune:0.1.0
+    image: decentralize/docker-autoprune:0.1.1
     init: true
     environment:
       - SLEEP_TIME=3600

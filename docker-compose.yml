@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    image: decentralize/docker-autoprune:0.1.0
+    image: decentralize/docker-autoprune:0.1.1
     init: true
     environment:
       - SLEEP_TIME=10
